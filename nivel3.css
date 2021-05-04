@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#titulo{
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(233, 172, 40);;
+}
+#container{
+    background-color: rgb(233, 172, 40);
+    padding: 10px;
+    margin: 0px auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#container button{
+    width: 160px;
+    height: 65px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgb(224, 117, 30);
+    border-radius: 25px;
+    border: 3px solid #fff;
+}
+#container button:hover{
+    background-color: rgb(255, 178, 34);
+}
